@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Marb’s List — Cambridge, meet Marb.</title>
 <meta name="description" content="Looking for a babysitter, a couch, or a collaborator in Cambridge, MA? Email Marb, your local AI connector.">
 <meta name="theme-color" content="#f5f0e5">
@@ -9,32 +10,192 @@
 <meta property="og:description" content="Return to sincerity. Tell your local AI connector what you’re looking for—or what you have to offer.">
 <style>
 :root{--paper:#f5f0e5;--ink:#24382a;--green:#284d34;--yellow:#efcf69;--line:#c8cbbb}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.55}a{color:inherit}button,input,textarea,select{font:inherit}button,a,input,textarea{outline-offset:5px}header,main,footer{max-width:1200px;margin:auto;padding-left:40px;padding-right:40px}header{display:flex;justify-content:space-between;align-items:center;padding-top:28px;padding-bottom:26px;border-bottom:1px solid var(--line)}.brand{font:700 27px Georgia,serif;text-decoration:none;letter-spacing:-1px}.local{font-size:12px;text-transform:uppercase;letter-spacing:1.5px;display:flex;align-items:center;gap:9px}.dot{height:8px;width:8px;background:#498458;border-radius:100%}.hero{padding:72px 0 78px;display:grid;grid-template-columns:1.1fr 1fr;gap:65px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:700}h1,h2,h3,p{margin-top:0}h1{font:normal clamp(52px,6.3vw,82px)/1.03 Georgia,serif;letter-spacing:-3px;margin-bottom:26px}h1 em{font-weight:normal}h2{font:normal 44px/1.12 Georgia,serif;letter-spacing:-1px}.intro{max-width:440px;font-size:19px}.button{display:inline-flex;align-items:center;justify-content:center;gap:25px;background:var(--green);color:#fff;padding:15px 23px;border:1px solid var(--green);border-radius:4px;text-decoration:none;cursor:pointer;font-size:15px;font-weight:700}.button:hover{background:#193a24}.small{font-size:13px}.note{margin-top:13px;opacity:.8}.letter{background:#fffdf6;border:1px solid #ddd6c6;padding:42px 38px 28px;box-shadow:8px 10px 0 #dedfce;transform:rotate(2deg);position:relative}.letter:before{content:"";position:absolute;top:-14px;left:38%;width:110px;height:30px;background:#e6dca4b3;transform:rotate(-4deg)}.letter .salute{font:normal 34px Georgia,serif}.letter label{font:normal 28px/1.5 Georgia,serif;display:block;margin:15px 0 3px}.letter input{width:100%;background:none;border:0;border-bottom:1px solid #aab2a0;padding:8px 0;color:var(--ink);font-size:18px;border-radius:0}.letter input::placeholder{color:#77816f}.examples{font-size:12px;color:#66715f;margin-top:5px}.letter .sign{font:italic 22px Georgia,serif;margin-top:23px;margin-bottom:16px}.letter .button{width:100%;margin-top:5px}.stamp{position:absolute;right:20px;top:24px;width:60px;height:67px;border:2px dashed #adb899;display:grid;place-items:center;transform:rotate(-7deg);font:italic 27px Georgia,serif;color:#567443}.topics{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:19px 0;display:flex;flex-wrap:wrap;gap:10px 28px;font-size:13px;justify-content:space-between}.topics span:before{content:"↗";margin-right:9px;color:#728361}.how{padding:68px 0 70px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:32px}.section-head h2{margin:0}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:35px}.number{font:italic 24px Georgia,serif;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:20px}.steps h3{font:normal 25px Georgia,serif;margin-bottom:10px}.steps p{font-size:15px;max-width:310px}.sincerity{background:var(--yellow);border-radius:5px;padding:43px 48px;display:grid;grid-template-columns:1.1fr 1fr;gap:50px;align-items:center}.sincerity h2{margin-bottom:15px}.sincerity p{max-width:430px;margin-bottom:0}.sincerity .email{font:normal clamp(20px,2.8vw,31px) Georgia,serif;text-underline-offset:6px;overflow-wrap:anywhere}.faq{padding:65px 0 55px;display:grid;grid-template-columns:1fr 1.4fr;gap:60px}details{border-bottom:1px solid var(--line);padding:16px 0}summary{cursor:pointer;font-size:16px;font-weight:700}details p{font-size:14px;margin:12px 0 4px;max-width:570px}.footer{border-top:1px solid var(--line);padding-top:23px;padding-bottom:26px;display:flex;justify-content:space-between;gap:20px;font-size:12px}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.status{font-size:13px;margin:12px 0 0}
-@media(max-width:760px){header,main,footer{padding-left:22px;padding-right:22px}.local{font-size:10px;letter-spacing:.7px}.hero{grid-template-columns:1fr;gap:47px;padding:44px 0 55px}h1{max-width:480px;letter-spacing:-2px}.letter{margin:0 6px;padding:34px 25px 24px}.steps{grid-template-columns:1fr;gap:22px}.steps p{max-width:none}.how{padding:43px 0}.section-head{display:block}.section-head .small{margin-top:15px}.sincerity{grid-template-columns:1fr;gap:22px;padding:30px 25px}.faq{grid-template-columns:1fr;gap:4px;padding:40px 0}.faq h2{font-size:34px}.footer{flex-direction:column;gap:8px}.topics{justify-content:start;gap:12px 22px}.brand{font-size:24px}h2{font-size:37px}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.55}
+a{color:inherit}
+button,input,textarea,select{font:inherit}
+button,a,input,textarea{outline-offset:5px}
+header,main,footer{max-width:1200px;margin:auto;padding-left:40px;padding-right:40px}
+header{display:flex;justify-content:space-between;align-items:center;padding-top:28px;padding-bottom:26px;border-bottom:1px solid var(--line)}
+.brand{font:700 27px Georgia,serif;text-decoration:none;letter-spacing:-1px}
+.local{font-size:12px;text-transform:uppercase;letter-spacing:1.5px;display:flex;align-items:center;gap:9px}
+.dot{height:8px;width:8px;background:#498458;border-radius:100%}
+.hero{padding:72px 0 78px;display:grid;grid-template-columns:1.1fr 1fr;gap:65px;align-items:center}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:700}
+h1,h2,h3,p{margin-top:0}
+h1{font:normal clamp(52px,6.3vw,82px)/1.03 Georgia,serif;letter-spacing:-3px;margin-bottom:26px}
+h1 em{font-weight:normal}
+h2{font:normal 44px/1.12 Georgia,serif;letter-spacing:-1px}
+.intro{max-width:440px;font-size:19px}
+.button{display:inline-flex;align-items:center;justify-content:center;gap:25px;background:var(--green);color:#fff;padding:15px 23px;border:1px solid var(--green);border-radius:4px;text-decoration:none;cursor:pointer;font-size:15px;font-weight:700}
+.button:hover{background:#193a24}
+.small{font-size:13px}
+.note{margin-top:13px;opacity:.8}
+.notice-link{font-size:13px;margin-top:10px}
+.notice-link a{text-underline-offset:3px}
+.letter{background:#fffdf6;border:1px solid #ddd6c6;padding:42px 38px 28px;box-shadow:8px 10px 0 #dedfce;transform:rotate(2deg);position:relative}
+.letter:before{content:"";position:absolute;top:-14px;left:38%;width:110px;height:30px;background:#e6dca4b3;transform:rotate(-4deg)}
+.letter .salute{font:normal 34px Georgia,serif}
+.letter label{font:normal 28px/1.5 Georgia,serif;display:block;margin:15px 0 3px}
+.letter input{width:100%;background:none;border:0;border-bottom:1px solid #aab2a0;padding:8px 0;color:var(--ink);font-size:18px;border-radius:0}
+.letter input::placeholder{color:#77816f}
+.examples{font-size:12px;color:#66715f;margin-top:5px}
+.letter .sign{font:italic 22px Georgia,serif;margin-top:23px;margin-bottom:16px}
+.letter .button{width:100%;margin-top:5px}
+.stamp{position:absolute;right:20px;top:24px;width:60px;height:67px;border:2px dashed #adb899;display:grid;place-items:center;transform:rotate(-7deg);font:italic 27px Georgia,serif;color:#567443}
+.topics{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:19px 0;display:flex;flex-wrap:wrap;gap:10px 28px;font-size:13px;justify-content:space-between}
+.topics span:before{content:"↗";margin-right:9px;color:#728361}
+.how{padding:68px 0 70px}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:32px}
+.section-head h2{margin:0}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:35px}
+.number{font:italic 24px Georgia,serif;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:20px}
+.steps h3{font:normal 25px Georgia,serif;margin-bottom:10px}
+.steps p{font-size:15px;max-width:310px}
+.sincerity{background:var(--yellow);border-radius:5px;padding:43px 48px;display:grid;grid-template-columns:1.1fr 1fr;gap:50px;align-items:center}
+.sincerity h2{margin-bottom:15px}
+.sincerity p{max-width:430px;margin-bottom:0}
+.sincerity .email{font:normal clamp(20px,2.8vw,31px) Georgia,serif;text-underline-offset:6px;overflow-wrap:anywhere}
+.faq{padding:65px 0 55px;display:grid;grid-template-columns:1fr 1.4fr;gap:60px}
+details{border-bottom:1px solid var(--line);padding:16px 0}
+summary{cursor:pointer;font-size:16px;font-weight:700}
+details p{font-size:14px;margin:12px 0 4px;max-width:570px}
+.disclaimer{border-top:1px solid var(--line);padding:28px 0 34px;scroll-margin-top:24px}
+.disclaimer h2{font:normal 25px Georgia,serif;letter-spacing:0;margin-bottom:16px}
+.disclaimer p{font-size:14px;line-height:1.65;max-width:900px;margin-bottom:14px}
+.disclaimer p:last-child{margin-bottom:0}
+.footer{border-top:1px solid var(--line);padding-top:23px;padding-bottom:26px;display:flex;justify-content:space-between;gap:20px;font-size:12px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.status{font-size:13px;margin:12px 0 0}
+@media(max-width:760px){
+header,main,footer{padding-left:22px;padding-right:22px}
+.local{font-size:10px;letter-spacing:.7px}
+.hero{grid-template-columns:1fr;gap:47px;padding:44px 0 55px}
+h1{max-width:480px;letter-spacing:-2px}
+.letter{margin:0 6px;padding:34px 25px 24px}
+.steps{grid-template-columns:1fr;gap:22px}
+.steps p{max-width:none}
+.how{padding:43px 0}
+.section-head{display:block}
+.section-head .small{margin-top:15px}
+.sincerity{grid-template-columns:1fr;gap:22px;padding:30px 25px}
+.faq{grid-template-columns:1fr;gap:4px;padding:40px 0}
+.faq h2{font-size:34px}
+.footer{flex-direction:column;gap:8px}
+.topics{justify-content:start;gap:12px 22px}
+.brand{font-size:24px}
+h2{font-size:37px}
+}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<header><a class="brand" href="#">Marb’s List<span aria-hidden="true"> ✳</span></a><span class="local"><span class="dot"></span>Cambridge, MA</span></header>
+<header>
+<a class="brand" href="#">Marb’s List<span aria-hidden="true"> ✳</span></a>
+<span class="local"><span class="dot"></span>Cambridge, MA</span>
+</header>
+
 <main>
 <section class="hero">
-<div><p class="eyebrow">A little more neighborly.</p><h1>Cambridge,<br>meet <em>Marb.</em></h1><p class="intro">A babysitter. A couch. A collaborator. Tell Marb what you need—or what you have to offer.</p><a class="button" href="mailto:marbslist@gmail.com?subject=Hi%20Marb">Email Marb <span aria-hidden="true">↗</span></a><p class="small note">Your local AI connector. Just an email away.</p></div>
-<form class="letter" id="letter"><div class="stamp" aria-hidden="true">m.</div><p class="salute">Hi Marb,</p><label for="who">I’m a</label><input id="who" name="who" placeholder="parent, painter, founder…" maxlength="160" autocomplete="off"><p class="examples">A little about you.</p><label for="need">looking for</label><input id="need" name="need" placeholder="babysitter, tutor, co-founder…" maxlength="280" autocomplete="off"><p class="examples">Or tell Marb what you’re offering.</p><p class="sign">Let’s find a good fit.</p><button class="button" type="submit">Start a conversation <span aria-hidden="true">↗</span></button><p class="small note">Opens your email app. Nothing is submitted on this page.</p><p id="status" class="status" role="status" hidden></p></form>
+<div>
+<p class="eyebrow">A little more neighborly.</p>
+<h1>Cambridge,<br>meet <em>Marb.</em></h1>
+<p class="intro">A babysitter. A couch. A collaborator. Tell Marb what you need—or what you have to offer.</p>
+<a class="button" href="mailto:marbslist@gmail.com?subject=Hi%20Marb">Email Marb <span aria-hidden="true">↗</span></a>
+<p class="small note">Your local AI connector. Just an email away.</p>
+<p class="notice-link">AI can make mistakes. <a href="#disclaimer">Read the AI &amp; privacy notice before emailing.</a></p>
+</div>
+
+<form class="letter" id="letter">
+<div class="stamp" aria-hidden="true">m.</div>
+<p class="salute">Hi Marb,</p>
+<label for="who">I’m a</label>
+<input id="who" name="who" placeholder="parent, painter, founder…" maxlength="160" autocomplete="off">
+<p class="examples">A little about you.</p>
+<label for="need">looking for</label>
+<input id="need" name="need" placeholder="babysitter, tutor, co-founder…" maxlength="280" autocomplete="off">
+<p class="examples">Or tell Marb what you’re offering.</p>
+<p class="sign">Let’s find a good fit.</p>
+<button class="button" type="submit">Start a conversation <span aria-hidden="true">↗</span></button>
+<p class="small note">Opens your email app. Nothing is submitted on this page.</p>
+<p class="notice-link">Only send information you’re comfortable having shared. <a href="#disclaimer">AI &amp; privacy notice.</a></p>
+<p id="status" class="status" role="status" hidden></p>
+</form>
 </section>
-<div class="topics" aria-label="Examples of things to find or offer"><span>Local services</span><span>Furniture &amp; things</span><span>Collaborators</span><span>Everyday help</span></div>
-<section class="how" id="how"><div class="section-head"><h2>Like emailing a<br>well-connected friend.</h2><p class="small">Starting small. Starting in Cambridge.</p></div><div class="steps">
-<article><div class="number">01</div><h3>Tell Marb.</h3><p>Share what you need or offer, your location, timing, and must-haves.</p></article>
-<article><div class="number">02</div><h3>Talk it through.</h3><p>A few questions, plus a photo, profile, reference, or email exchange before listing.</p></article>
-<article><div class="number">03</div><h3>Get connected.</h3><p>Marb suggests a good fit. Both people say yes before an introduction or sharing contact details.</p></article>
-</div></section>
-<section class="sincerity"><div><p class="eyebrow">Less scrolling. More connecting.</p><h2>Return to sincerity.</h2><p>There’s probably someone nearby who can help. Let’s start with a conversation.</p></div><div><p class="small" style="margin-bottom:12px">Say hello, Cambridge.</p><a class="email" href="mailto:marbslist@gmail.com?subject=Hi%20Marb">marbslist@gmail.com</a></div></section>
-<section class="faq"><div><p class="eyebrow">Good to know</p><h2>A few details.</h2></div><div>
-<details><summary>What can I find or offer?</summary><p>Services, furniture, collaborators, jobs, housing, and everyday help. We’re starting in Cambridge, MA. Matches depend on who joins; they aren’t guaranteed.</p></details>
-<details><summary>Privacy &amp; verification</summary><p>Your listing isn’t public here. Both people must agree before contact details are shared. Preliminary verification is not a background check or safety guarantee.</p></details>
-<details><summary>How does it work?</summary><p>Marb checks email twice daily and keeps unmatched requests in mind. Email anytime to withdraw or stop receiving matches. Withdrawn listings stop being matched; archived records and email history are retained.</p></details>
-</div></section>
+
+<div class="topics" aria-label="Examples of things to find or offer">
+<span>Local services</span>
+<span>Furniture &amp; things</span>
+<span>Collaborators</span>
+<span>Everyday help</span>
+</div>
+
+<section class="how" id="how">
+<div class="section-head">
+<h2>Like emailing a<br>well-connected friend.</h2>
+<p class="small">Starting small. Starting in Cambridge.</p>
+</div>
+<div class="steps">
+<article>
+<div class="number">01</div>
+<h3>Tell Marb.</h3>
+<p>Share what you need or offer, your location, timing, and must-haves.</p>
+</article>
+<article>
+<div class="number">02</div>
+<h3>Talk it through.</h3>
+<p>A few questions, plus a photo, profile, reference, or email exchange before listing.</p>
+</article>
+<article>
+<div class="number">03</div>
+<h3>Get connected.</h3>
+<p>Marb suggests a good fit and asks both people before making an introduction.</p>
+</article>
+</div>
+</section>
+
+<section class="sincerity">
+<div>
+<p class="eyebrow">Less scrolling. More connecting.</p>
+<h2>Return to sincerity.</h2>
+<p>There’s probably someone nearby who can help. Let’s start with a conversation.</p>
+</div>
+<div>
+<p class="small" style="margin-bottom:12px">Say hello, Cambridge.</p>
+<a class="email" href="mailto:marbslist@gmail.com?subject=Hi%20Marb">marbslist@gmail.com</a>
+</div>
+</section>
+
+<section class="faq">
+<div>
+<p class="eyebrow">Good to know</p>
+<h2>A few details.</h2>
+</div>
+<div>
+<details>
+<summary>What can I find or offer?</summary>
+<p>Services, furniture, collaborators, jobs, housing, and everyday help. We’re starting in Cambridge, MA. Matches depend on who joins; they aren’t guaranteed.</p>
+</details>
+<details>
+<summary>How does it work?</summary>
+<p>Marb checks email and keeps unmatched requests in mind. You can email anytime to stop receiving matches. Archived records and email history are retained.</p>
+</details>
+</div>
+</section>
+
+<section class="disclaimer" id="disclaimer" aria-labelledby="disclaimer-title">
+<h2 id="disclaimer-title">AI &amp; privacy notice</h2>
+<p>Marb is an AI connector and can make mistakes. Marb helps people find each other but does not endorse participants, conduct background checks, or guarantee anyone’s identity, qualifications, safety, reliability, or the accuracy of their claims. Any preliminary verification is limited. You’re responsible for independently checking people, offers, and arrangements before proceeding.</p>
+<p>Only send information you’re comfortable having shared. Please don’t send confidential information, sensitive personal details, or other people’s private information. Messages are processed using AI and email services; summaries of your request or offer may be shared with potential matches. AI errors may result in unintended disclosure.</p>
+</section>
 </main>
-<footer class="footer"><span>Marb’s List · Cambridge, Massachusetts</span><span>Local connections, with a little AI help.</span></footer>
+
+<footer class="footer">
+<span>Marb’s List · Cambridge, Massachusetts</span>
+<span>Local connections, with a little AI help.</span>
+</footer>
+
 <script>
 document.getElementById('letter').addEventListener('submit',function(event){
 event.preventDefault();
@@ -42,7 +203,9 @@ const who=document.getElementById('who').value.trim();
 const need=document.getElementById('need').value.trim();
 const body="Hi Marb,\n\n"+(who?"I’m a "+who+".\n":"A little about me: \n")+(need?"I’m looking for "+need+".\n":"I’m looking for / offering: \n")+"\nLocation: Cambridge, MA\nTiming / availability: \nBudget / price (if relevant): \nMust-haves: \n\nThanks!";
 window.location.href='mailto:marbslist@gmail.com?subject='+encodeURIComponent('Hi Marb — Cambridge')+'&body='+encodeURIComponent(body);
-const status=document.getElementById('status');status.hidden=false;status.textContent='If your email app doesn’t open, email marbslist@gmail.com directly.';
+const status=document.getElementById('status');
+status.hidden=false;
+status.textContent='If your email app doesn’t open, email marbslist@gmail.com directly.';
 });
 </script>
 </body>
